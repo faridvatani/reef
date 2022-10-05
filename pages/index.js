@@ -7,7 +7,7 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
-import avatar from "../public/avatar.png";
+// import avatar from "../public/avatar.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import mentoring from "../public/mentor.png";
@@ -51,7 +51,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-0">
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-5 md:h-80 md:w-80">
-              <Image src={avatar} layout="fill" objectFit="cover" alt="avatar"/>
+              {/* <Image src={avatar} layout="fill" objectFit="cover" alt="avatar"/> */}
             </div>
             <h2 className="text-5xl py-5 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Farid Vatani
