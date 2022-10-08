@@ -1,6 +1,8 @@
-# Reef
-Reef - A Simple React Portfolio Website With Tailwind
+# Reef 
 
+<img src="Screenshot.png" align="center" alt="Reef Portfolio" /><br>
+
+ A Simple React Portfolio Website With Tailwind.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Features
@@ -23,36 +25,48 @@ To view the demo: **[Click Here](http://reef-phi.vercel.app/)**
 
 ## Getting Started
 
+> Prerequisites:
+You'll need `Git` and `Node.js` (which comes with NPM) installed on your computer. Also, you can use `Yarn` instead of `NPM`.
+
 First, run the development server:
+
+1- Clone the repository using following command or download
+
+```
+git clone https://github.com/faridvatani/reef.git
+```
+2- To install dependency
+```
+npm install
+```
+3- To start the server
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
-
+4- For Production Build
+```
+npm run build
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
+## Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Contribution
-If you have any suggestions on what to improve in **Reef** and would like to share them, feel free to leave an issue or fork project to implement your own ideas.
+If you have any suggestions on what to improve in **Reef** and would like to share them, feel free to [leave an issue](https://github.com/faridvatani/reef/issues) or fork project to implement your own ideas.
+
+## Authors
+ - [Farid Vatani - Frontend Engineer](https://github.com/faridvatani) 
+
+ - Who is the Next one?
+
+ ## License 
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
