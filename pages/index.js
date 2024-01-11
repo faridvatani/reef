@@ -184,7 +184,7 @@ export default function Home() {
       </main>
       <footer className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 dark:text-white text-center p-6 border-solid border-b-8 border-teal-500">
         <span>© 2022 Copyright | Made With ❤️ By </span>
-        <a className="text-cyan-600 font-poppins" href="https://faridvatani.ir/">Farid Vatani</a>
+        <a className="text-cyan-600 font-poppins" href="https://faridvatani.com/">Farid Vatani</a>
       </footer>
     </div>
   )
